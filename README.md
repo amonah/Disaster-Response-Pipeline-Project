@@ -9,23 +9,21 @@ data engineering, ML  and NLU were applied on this project to make an analyzatio
 ### explanation of the files in the repository 
 there are three folder :
 1) data:
-disaster_messages.csv:
+- disaster_messages.csv:
 messages dataset
-disaster_categories.csv:
+- disaster_categories.csv:
 categories dataset
-DisasterResponse.db:
+- DisasterResponse.db:
 the SQLite that has messages and categories datasets
-process_data.py:
+- process_data.py:
 Loads the datasets of messages and categories and then merge them after that clean and store it in a SQLite
 2) models:
-train_classifier.py: 
+- train_classifier.py: 
 script of ML that train the dataset
-classifier.pkl: 
-result of the ML script
 3) app:
-run.py:
+- run.py:
 flask file that run the wep app
-the templates folder that has two html files that were used to run the web app: go.html and master.html
+- the templates folder that has two html files that were used to run the web app: go.html and master.html
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
